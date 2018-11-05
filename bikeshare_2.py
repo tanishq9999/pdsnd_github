@@ -165,6 +165,7 @@ def user_stats(df):
     print('The number of counts of user type is \n{}.'.format(user_types))
 
     check = True
+    #Creating while loop to check whether the filename is washington.csv
     while check:
         if df['Trip Duration'][0] == 489.066:
             break
@@ -196,6 +197,7 @@ def user_stats(df):
 def display_data(df):
     count = 0
     check = True
+    #creating while loop to keep track whether the user wants to see next five lines.
     while check:
         look_data = input('Do you wish to look at five lines of data yes/no: ')
         if look_data.lower() == 'yes':

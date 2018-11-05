@@ -15,4 +15,4 @@ washington.csv
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Pandas data frame: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
